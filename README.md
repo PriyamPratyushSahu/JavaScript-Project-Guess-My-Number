@@ -95,7 +95,7 @@ Player enters 18, click on Check button, no it's Too High, Score is 19
 Player enters 16, click on Check button, That was the perfect guess!, Scored 19 and highscore is updated to 19
 
 <picture >
-  <img alt="Perfect_Guess" src="imgs/Perfect_Guess.png" width="80%" height="80%">
+  <img alt="High_Score" src="imgs/High_Score.png" width="80%" height="80%">
 </picture>
 
 You can directly launch the game from here even [Guess My Number](https://priyampratyushsahu.github.io/JavaScript-Project-Guess-My-Number/) 
