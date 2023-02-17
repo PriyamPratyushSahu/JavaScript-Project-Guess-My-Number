@@ -38,6 +38,7 @@ const checkCondition = (numValue) => {
         console.log("Out of Range!");
         setQuerySelectorValue('.message','Out of Range 😑');
         setBackgroundColor('#a017d2');
+        setTimeout(againButton,3000);
     }
         
     else if (numValue != secretNumber) {
@@ -52,6 +53,7 @@ const checkCondition = (numValue) => {
             scoreValue = 1; // To fix the output as 0 because of --scoreValue
             setQuerySelectorValue('.number','❌');
             console.log("Check");
+            setTimeout(againButton,3000);
         }   
     }
     //Condition 5: Guess value matches!
@@ -80,7 +82,8 @@ const getValue = () => {
     if (!guessValue) {
         console.log("No number");
         setQuerySelectorValue('.message', 'No number😒');
-        setBackgroundColor('#4c49ec');   
+        setBackgroundColor('#4c49ec'); 
+        setTimeout(againButton,3000);
     }
     //Condition 2: Guess value is not decimal
     else if (!Number.isInteger(guessValue)) {
