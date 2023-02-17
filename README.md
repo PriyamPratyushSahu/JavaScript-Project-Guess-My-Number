@@ -80,7 +80,7 @@ Player enters 2, click on Check button, Hurray!! he wins, Scored 17 and highscor
   <img alt="Perfect Guess" src="imgs/Perfect_Guess.png" width="80%" height="80%">
 </picture>
 
-Player clicks on Again button, to play again
+Player clicks on Again button, to play again, you can see score reset to 20 and highscore remains 17
 
 <picture >
   <img alt="Again" src="imgs/Again.png" width="80%" height="80%">
