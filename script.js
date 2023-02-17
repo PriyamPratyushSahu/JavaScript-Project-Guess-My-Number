@@ -54,7 +54,7 @@ const checkCondition = (numValue) => {
             console.log("Check");
         }   
     }
-    //Condition 6: Guess value matches!
+    //Condition 5: Guess value matches!
     else if (numValue === secretNumber) {
         flag = true;
         console.log("Won");
@@ -82,7 +82,7 @@ const getValue = () => {
         setQuerySelectorValue('.message', 'No number😒');
         setBackgroundColor('#4c49ec');   
     }
-    //Condition 2: Guess value is decimal
+    //Condition 2: Guess value is not decimal
     else if (!Number.isInteger(guessValue)) {
         console.log("Not a integer value");
         setQuerySelectorValue('.message', 'Decimal not allowed🥸')
