@@ -15,13 +15,13 @@ About the game: When you load this in the browser, which will look like this -
 </picture>
 
 
-A random number gets generated between 1 to 20, the user has to enter a number between 1 to 20. The score is set to 20 in the beginning, after each attempt the score reduces by 1, if the user loses all his 20 attempts then he lost the game
+A random number gets generated between 1 to 20, the user has to enter a number between 1 to 20. The score is set to 20 in the beginning, after each attempt the score reduces by 1, if the user loses all his 20 attempts then he lost the game ☹️
 
 <picture >
   <center><img alt="Lost Game" src="imgs/Lost_Game.png" width="80%" height="80%"></center>
 </picture>
 
-or the user guess the correct random number.
+or the user guess the correct random number, and wins!!🤩.
 
 <picture >
   <center><img alt="Perfect Guess" src="imgs/Perfect_Guess.png" width="80%" height="80%"></center>
@@ -29,19 +29,19 @@ or the user guess the correct random number.
 
 This was a basic walkthorugh, there is an example below, now let's see the condtions
 
-> ### **Condtion:**
+> ### **Condtions:**
 
->  Condition 1: If Guess value is  null, then it will thrown an error
+>  ## Condition 1: If Guess value is  null, then it will thrown an error
 <picture >
   <center><img alt="Null Value" src="imgs/Null_Value.png" width="80%" height="80%"></center>
 </picture>
 
-> Condition 2: If Guess value is not integer, then it will thrown an error 
+> ## Condition 2: If Guess value is not integer, then it will thrown an error 
 <picture >
   <center><img alt="Not Integer" src="imgs/Not_Integer.png" width="80%" height="80%"></center>
 </picture>
 
-> Condition 3: If Guess value is not in the given range(between 1 to 20), then it will thrown an error 
+> ## Condition 3: If Guess value is not in the given range(between 1 to 20), then it will thrown an error 
 <picture >
   <center><img alt="Out of Scope" src="imgs/Out_of_Scope.png" width="80%" height="80%"></center>
 </picture>
