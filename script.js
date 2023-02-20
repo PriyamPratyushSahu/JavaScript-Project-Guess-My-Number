@@ -114,5 +114,5 @@ document.querySelector('.again').addEventListener('click', againButton);
 7.    setBackgroundColor                 function          Sets background colour as per the condition tiggered
 8.    againButton                        function          Resets the game to start again, except the high score
 9.    getValue                           function          guessValue is checked with all conditions
-10. checkCondition(numValue)             function          guessValue and secretNumber is compared
+10.   checkCondition(numValue)           function          guessValue and secretNumber is compared
  */  
