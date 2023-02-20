@@ -99,9 +99,20 @@ const getValue = () => {
     scoreValue = (flag && scoreValue > 0) ? scoreValue : --scoreValue;
     setQuerySelectorValue('.score', scoreValue);
     }
-
-
 document.querySelector('.check').addEventListener('click', getValue);
 document.querySelector('.again').addEventListener('click', againButton);
 
-
+/**
+        ******************************** VARIABLE DESCRIPTION ********************************
+          variable                         type                 Description                       
+1.    secretNumber                       variable          A secret number between 1 to 20 is generated and saved
+2.    scoreValue                         variable          Value start from 20, reduces by 1 in every attempt
+3.    flag                               variable          Set as false, if value matches then turn true
+4.    guessValue                         variable          Player enters the value to match the secretNumber
+5.    highscore                          variable          Sets the highest score from each turn of the game
+6.    setQuerySelectorValue(id,value)    function          Sets value to the locator(id) of the html page
+7.    setBackgroundColor                 function          Sets background colour as per the condition tiggered
+8.    againButton                        function          Resets the game to start again, except the high score
+9.    getValue                           function          guessValue is checked with all conditions
+10. checkCondition(numValue)             function          guessValue and secretNumber is compared
+ */  
